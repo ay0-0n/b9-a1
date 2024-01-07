@@ -55,6 +55,8 @@ main{
     margin-top: 100px;
     text-align: center;
 }
+
+/* first section */
 .off-section h1{
     color: #F00;
     font-size: 5.5rem;
@@ -75,4 +77,51 @@ main{
     padding: 10px 0px 40px 0px;
 }
 
+/* Midnight party section */
+.midnight-party{
+    background-image: url("../images/Vectorrr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    border-radius: 16px;
+    text-align: left;
+}
+.midnight-gredient{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+}
+.midnight-container{
+    width: 60%;
+    max-width: 1320px;
+    padding: 126px 0px 0px 126px;
+}
+.midnight-container h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 5.5rem;
+    letter-spacing: 0.44rem;
+}
+.midnight-container p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.midnight-container button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    border: 0px;
+    padding-left: 30px;
+    padding-top: 70px;
+    padding-bottom: 142px;
+}
 
