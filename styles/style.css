@@ -90,6 +90,12 @@ main{
 .midnight-gredient{
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.midnight-gredient > img{
+    align-self: center;
+    padding-right: 138px;
 }
 .midnight-container{
     width: 60%;
